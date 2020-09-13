@@ -6,7 +6,7 @@ edition = "2018"
 license = "MIT"
 description = "Plotters Piston Window Backend"
 homepage = "https://plotters-rs.github.io"
-repository = "https://github.com/plotters-rs/plotters-svg.git"
+repository = "https://github.com/plotters-rs/plotters-piston.git"
 readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
