@@ -1,4 +1,4 @@
-# plotters-cairo - The Piston Window backend for Plotters
+# plotters-piston - The Piston Window backend for Plotters
 
 This is a part of plotters project. For more details, please check the following links:
 i
