@@ -1,0 +1,17 @@
+[package]
+name = "plotters-piston"
+version = "0.3.0"
+authors = ["Hao Hou <haohou302@gmail.com>"]
+edition = "2018"
+license = "MIT"
+description = "Plotters Piston Window Backend"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+plotters-backend = "0.3.0"
+piston_window = "0.112.0"
+
+[dev-dependencies]
+plotters = {version = "0.3.0", default_features = false, features = ["ttf", "all_series"]}
+systemstat = "0.1.5"
