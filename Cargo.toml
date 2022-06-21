@@ -15,7 +15,6 @@ readme = "README.md"
 piston_window = "0.120.0"
 
 [dependencies.plotters-backend]
-branch = "master"
 git = "https://github.com/plotters-rs/plotters-backend"
 # version = "0.3.1"
 
@@ -23,7 +22,6 @@ git = "https://github.com/plotters-rs/plotters-backend"
 systemstat = "0.1.5"
 
 [dev-dependencies.plotters]
-branch = "master"
 default_features = false
 features = ["ttf", "all_series"]
 git = "https://github.com/plotters-rs/plotters"
