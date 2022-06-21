@@ -1,6 +1,6 @@
 use piston_window::{EventLoop, PistonWindow, WindowSettings};
 use plotters::prelude::*;
-use plotters_piston::{draw_piston_window, PistonBackend};
+use plotters_piston::{draw_piston_window};
 use systemstat::platform::common::Platform;
 use systemstat::System;
 
@@ -43,7 +43,7 @@ fn main() {
             .caption("Real Time CPU Usage", ("sans-serif", 30))
             .x_label_area_size(40)
             .y_label_area_size(50)
-            .build_ranged(0..N_DATA_POINTS as u32, 0f32..1f32)?;
+            .build_cartesian_2d(0..N_DATA_POINTS as u32, 0f32..1f32)?;
 
         cc.configure_mesh()
             .x_label_formatter(&|x| format!("{}", -(LENGTH as f32) + (*x as f32 / FPS as f32)))
